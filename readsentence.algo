@@ -1,0 +1,19 @@
+ALGORITHM algorithm_name
+VAR
+ s : char
+ i : INTEGER
+ vowels : INTEGER
+ word : INTEGER
+ consot : INTEGER
+BEGIN
+WHILE (s!='.') DO
+IF (s==a or s==e or s==y s==u s==i s==o) THEN
+    vowels=vowels+1
+ else IF (s=='') THEN
+    word=word+1
+ELSE
+    consot=consot+1
+END_IF
+END_FOR
+END_WHILE
+END
