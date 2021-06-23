@@ -1,22 +1,24 @@
-PROCEDURE dot_product(var IR:ARRAY_OF float)
+
+
+/////---updated---\\\\\
+
+PROCEDURE dot_product()
 VAR
  V1,V2 : ARRAY_OF FLOAT[40];
  i,j,number,n:INTEGER:=0
  ps:FLOAT:=0
 BEGIN
-FOR k FROM 0 TO IR.lenght STEP 1  DO
 FOR i FROM 0 TO V1.lenght STEP 1  DO
-FOR j FROM 0 TO V2.lenght STEP 1  DO
-    ps=ps+(IR[V1[i]]*IR[V2[j]])
-END_FOR
+    ps=ps+(V1[i]*V2[j])
 END_FOR
 END
+
 ALGORITHM orthogonal
  VAR
  n:INTEGER
  BEGIN
  FOR i FROM 0 TO n STEP 1  DO
-     PROCEDURE dot_product(IR)
+     PROCEDURE dot_product(V1,V2)
      IF (ps=0) THEN
          orto=true
      ESLE 
