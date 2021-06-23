@@ -1,3 +1,6 @@
+
+/////---updaed---\\\\\
+
 ALGORITHM algorithm_name
 VAR
  s : char
@@ -14,6 +17,5 @@ IF (s==a or s==e or s==y s==u s==i s==o) THEN
 ELSE
     consot=consot+1
 END_IF
-END_FOR
 END_WHILE
 END
